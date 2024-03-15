@@ -14,7 +14,7 @@ const Bottle = ({bottle,handleAddTocart}) => {
     );
 };
 
-Bottle.PropTypes ={
+Bottle.propTypes ={
     bottle: PropTypes.object.isRequired,
     handleAddTocart: PropTypes.func.isRequired
 }

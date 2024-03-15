@@ -16,7 +16,7 @@ const Cart = ({cart, handleRemoveFromCart}) => {
     );
 };
 
-Cart.PropTypes ={
+Cart.propTypes ={
   cart: PropTypes.array.isRequired,
   handleRemoveFromCart: PropTypes.func.isRequired
 }
